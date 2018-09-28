@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: sauravdas90.springclouddemo.web
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: sarwar
+Implementation-Vendor-Id: org
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://projects.spring.io/spring-boot/sauravdas90.
+ springclouddemo.web/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
