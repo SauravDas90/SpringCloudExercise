@@ -1,2 +1,19 @@
-server
-  port:8761
+spring:
+  application:
+    name: discovery-service
+  profiles:
+    active: dev
+
+
+server:
+  port: 8761
+
+eureka:
+    client:
+      register-with-eureka: false
+      fetch-registry: false
+
+# later on use logback or log4j2.xml to customise, also have separate folder for each service
+# like var/log/{myservicename}/myservicename-{date}.log
+logging:
+  file: /var/log/${spring.application.name}.log
