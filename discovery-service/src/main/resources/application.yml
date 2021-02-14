@@ -15,10 +15,4 @@ eureka:
       register-with-eureka: false
       fetch-registry: false
       serviceUrl:
-        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-
-# later on use logback or log4j2.xml to customise, also have separate folder for each service
-# like var/log/{myservicename}/myservicename-{date}.log
-logging:
- # file: /var/log/${spring.application.name}.log
-file: C:/Users/saudas1/Documents/backup/AWS/logs/${spring.application.name}.log
+       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
